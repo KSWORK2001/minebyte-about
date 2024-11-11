@@ -1,0 +1,120 @@
+/* About.css */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+
+.about-page {
+  background-color: #6B73E8;
+  color: #ffffff;
+  padding: 20px;
+  font-family: 'Antonio', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-description {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.project-description h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.project-description p {
+  font-size: 1.2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.meet-the-team {
+  text-align: center;
+}
+
+.meet-the-team h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.team-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-member {
+  width: 180px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border: 3px solid #72ff79;
+  object-fit: cover;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  background-color: #6B73E8;
+  color: #D7D9CE;
+  width: 100%;
+  z-index: 1000;
+}
+
+.brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 28px;
+  color: #D7D9CE;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: rgba(215, 217, 206, 0.7);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #FFFFFF;
+}
+
+.back-to-login {
+  background-color: #6be89b;
+  color: #000000;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 30%;
+  align-self: center;
+}
+
+.back-to-login:hover {
+  background-color: #00dd55;
+}
