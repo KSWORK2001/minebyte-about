@@ -2,6 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
 
+html, body{
+	height: 100%;
+	width: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
 .about-page {
   background-color: #6B73E8; /* Teal-blue background */
   color: #ffffff; /* White text */
@@ -20,12 +31,13 @@
   }
   
   .project-description h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 20px;
+	align-self: center;
   }
   
   .project-description p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     max-width: 1000px;
     margin: 0 auto;
   }
